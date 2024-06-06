@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #98c1ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(50% - 15px);
+}
+
+button {
+  background-color: #8000ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c414b8;
+}
+
+.expense-item {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item p {
+  margin: 0;
+}
+
+.expense-item button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-item button:hover {
+  background-color: #c82333;
+}
+
+.total-balance {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.total-balance p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  input[type="text"],
+  input[type="number"] {
+    width: calc(100% - 15px);
+    margin-bottom: 10px;
+  }
+}
